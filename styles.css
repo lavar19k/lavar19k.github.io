@@ -1,0 +1,41 @@
+.content{
+    
+    display: grid;
+    grid-template-columns: 350px 400px 400px;
+}
+
+.item1{
+    
+    grid-column: 1 / span 3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 150px;
+    align: center;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  border:1px solid;
+  justify-content: center;
+  margin: 50px 50px;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  
+}
+
+.item2{
+    
+    grid-columns: 1;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 250px;
+    background-color: #CDDEEA  ;
+    margin-left: 40px;
+}
+
+img{
+    
+    border-radius: 50%;
+    padding: 25px;
+}
